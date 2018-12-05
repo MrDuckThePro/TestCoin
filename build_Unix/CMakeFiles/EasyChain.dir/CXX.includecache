@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/block.h
+iostream
+-
+vector
+-
+
+/home/jadelabe/Computer Science/CryptoBroker/EasyChain/include/block.cpp
+block.h
+/home/jadelabe/Computer Science/CryptoBroker/EasyChain/include/block.h
+
+/home/jadelabe/Computer Science/CryptoBroker/EasyChain/include/block.h
+iostream
+-
+vector
+-
+
+/home/jadelabe/Computer Science/CryptoBroker/EasyChain/main.cpp
+block.h
+-
+
