@@ -1,0 +1,5 @@
+ .gitignore
+ .directory
+ .git/
+ .vscode/
+ build_Unix/
