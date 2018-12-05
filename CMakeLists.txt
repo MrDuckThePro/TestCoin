@@ -7,6 +7,9 @@ set (EasyChain_VERSION_MINOR 1)
 set (CMAKE_CXX_STANDAR 11)
 set (CMAKE_BUILD_TYPE Debug)
 
-include_directories("${CMAKE_SOURCE_DIR}/include")
+include_directories(
+    include
+    )
+
 
 add_executable(EasyChain main.cpp include/block.h include/block.cpp)
