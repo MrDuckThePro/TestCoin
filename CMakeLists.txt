@@ -12,4 +12,4 @@ include_directories(
     )
 
 
-add_executable(EasyChain main.cpp include/block.h include/block.cpp)
+add_executable(EasyChain main.cpp include/block.h include/block.cpp include/blockchain.h include/blockchain.cpp include/picosha2.h)
